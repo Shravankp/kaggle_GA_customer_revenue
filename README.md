@@ -45,9 +45,9 @@ The next sequential model tries to correct the errors from the previous model.
 Similarly, multiple models are created, correcting the errors of the previous model.
 The final model (strong learner) is the weighted mean of all the models (weak learners).
 
-e1= y - y_pred1
-y_pred2 = y_pred1 + e1_pred
-e2 = y - y_pred2
+e1= y - y_pred1<br>
+y_pred2 = y_pred1 + e1_pred<br>
+e2 = y - y_pred2<br>
 and so on.
 
 XGBoost and LightGBM are effiecient gradient boosting models.
@@ -67,4 +67,4 @@ Note : Light GBM is sensitive to overfitting and can easily overfit small data. 
 * Finally submission.csv file is created. 
 
 ### Note:
-Complete code along with explanation is uploaded here, [customer_revenue_prediction.ipynb](./customer_revenue_prediction.ipynb) as a jupyter notebook.
+Complete code along with explanation is uploaded here- [customer_revenue_prediction.ipynb](./customer_revenue_prediction.ipynb) as jupyter notebook.
