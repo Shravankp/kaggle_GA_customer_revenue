@@ -21,14 +21,12 @@ A jupyter notebook named [customer_revenue_prediction.ipynb](./customer_revenue_
 
 As we have large dataset (with more columns >30 and rows > 10000)its better to use ensemble learning (gradient boosting models).
 
-Ensemble is a collection of predictors which come together (e.g. mean of all predictions) to give a final prediction.Boosting is an ensemble technique in which the predictors are not made independently, but sequentially (can overfit if stopping criteria isnt chosen well).
-
 The gist on how Gradient Boosting Models work is,
 
-A base model is created and is used to make predictions on the whole dataset.
-Then residual is calculated and observations which are incorrectly predicted are given higher weights.
-The next sequential model tries to correct the errors from the previous model.
-Similarly, multiple models are created, correcting the errors of the previous model.
+A base model is created and is used to make predictions on the whole dataset.<br>
+Then residual is calculated and observations which are incorrectly predicted are given higher weights.<br>
+The next sequential model tries to correct the errors from the previous model.<br>
+Similarly, multiple models are created, correcting the errors of the previous model.<br>
 The final model (strong learner) is the weighted mean of all the models (weak learners).
 
 e1= y - y_pred1<br>
